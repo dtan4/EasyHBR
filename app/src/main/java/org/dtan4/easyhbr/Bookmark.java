@@ -18,6 +18,22 @@ public class Bookmark implements Parcelable {
         this.bookmarkCount = bookmarkCount;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getBookmarkCount() {
+        return bookmarkCount;
+    }
+
     @Override
     public int describeContents() {
         return 0;

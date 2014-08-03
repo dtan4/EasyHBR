@@ -13,15 +13,13 @@
             android:orientation="vertical"
             android:layout_weight="1">
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="hoge.com"/>
-            <TextView
+                android:id="@+id/bookmark_title_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bookmark Title"
                 android:textSize="20sp"/>
             <TextView
+                android:id="@+id/bookmark_descriotion_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="description"/>
@@ -34,6 +32,7 @@
             android:layout_weight="3"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/bookmark_count_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
